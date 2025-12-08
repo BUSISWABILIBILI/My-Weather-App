@@ -6,10 +6,27 @@
     <title>My Weather App</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <form id="search-form">
+        <input
+          type="text"
+          id="city-input"
+          placeholder="Enter a city..."
+          required
+        />
+        <button type="submit">Search</button>
+      </form>
+    </header>
     <main>
-      <h1>Welcome to My Weather App</h1>
-      <p>Check the weather in your city!</p>
+      <div>
+        <h1>Paris</h1>
+        <p>
+          Tuesday 10:00 AM, Sunny
+          <br />
+          Humidity: 60%, Wind: 10 km/h
+        </p>
+      </div>
+      <div>☀️ 15°C</div>
     </main>
 
     <footer>
