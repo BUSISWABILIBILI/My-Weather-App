@@ -18,23 +18,29 @@
         <form id="search-form">
           <input
             type="text"
-            id="city-input"
+            id="search-form-input"
             placeholder="Enter a city..."
             required
           />
-          <button type="submit">Search</button>
+          <button type="submit" id="search-form-button">Search</button>
         </form>
       </header>
       <main>
-        <div>
-          <h1>Paris</h1>
-          <p>
-            Tuesday 10:00 AM, Sunny
-            <br />
-            Humidity: 60%, Wind: 10 km/h
-          </p>
+        <div class="weather-info">
+          <div>
+            <h1 id="city-name">Paris</h1>
+            <p id="city-weather-details">
+              Tuesday 10:00 AM, Sunny
+              <br />
+              Humidity: <strong>60%</strong>, Wind: <strong>10 km/h</strong>
+            </p>
+          </div>
+          <div id="city-temperature-container">
+            <div id="temperature-icon">☀️</div>
+            <div id="temperature-value">15</div>
+            <div id="temperature-unit">°C</div>
+          </div>
         </div>
-        <div>☀️ 15°C</div>
       </main>
 
       <footer>
