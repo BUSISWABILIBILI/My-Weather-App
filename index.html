@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="weather-app">
@@ -28,7 +29,7 @@
       <main>
         <div class="weather-info">
           <div>
-            <h1 id="city-name">Paris</h1>
+            <h1 id="city-name"></h1>
             <p id="city-weather-details">
               Tuesday 10:00 AM, Sunny
               <br />
@@ -37,7 +38,7 @@
           </div>
           <div id="city-temperature-container">
             <div id="temperature-icon">☀️</div>
-            <div id="temperature-value">15</div>
+            <div id="temperature-value"></div>
             <div id="temperature-unit">°C</div>
           </div>
         </div>
