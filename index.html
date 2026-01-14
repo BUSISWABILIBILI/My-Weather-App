@@ -32,13 +32,16 @@
           <div>
             <h1 id="city-name"></h1>
             <p id="city-weather-details">
-              Tuesday 10:00 AM, Sunny
+              <span id="weather-time"></span>, <span id="description"></span>
               <br />
-              Humidity: <strong>60%</strong>, Wind: <strong>10 km/h</strong>
+              Humidity: <strong id="humidity-value"></strong>, Wind:
+              <strong id="wind-value"></strong>
             </p>
           </div>
           <div id="city-temperature-container">
-            <div id="temperature-icon">☀️</div>
+            <div id="temperature">
+              <img class="temperature-icon-img" src="" alt="Weather Icon" />
+            </div>
             <div id="temperature-value"></div>
             <div id="temperature-unit">°C</div>
           </div>
